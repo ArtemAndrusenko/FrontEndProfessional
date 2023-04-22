@@ -41,17 +41,31 @@ let a = 32;
 let b = 5;
 let c = 14;
 
-let max = a;
+// let max = a;
 
-if (b > max) {
-  max = b;
+// if (b > max) {
+//   max = b;
+// }
+
+// if (c > max) {
+//   max = c;
+// }
+
+// console.log(max);
+
+if (a > b){
+  if(a > c){
+    console.log(a);
+  } else {
+    console.log(c);
+  }
+} else {
+  if (b > c){
+    console.log(b);
+  } else {
+    console.log(c);
+  }
 }
-
-if (c > max) {
-  max = c;
-}
-
-console.log(max);
 
 //5 Задание
 
@@ -97,5 +111,17 @@ if (temp >= 25 && weather == "clear") {
 } else {
     activity = "hiking";
 }
+
+console.log(activity);
+
+//Преобразовать решение используя тернарный оператор
+
+let temp = 25;
+let weather = "clear";
+
+let activity =
+  temp >= 25 && weather == "clear" ? "golf" :
+  temp >= 10 && temp <= 24 && weather == "clear" ? "bowling" :
+  "hiking";
 
 console.log(activity);
