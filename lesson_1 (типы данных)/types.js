@@ -41,7 +41,15 @@ let c = `string` (Апострофы позволяют совершить вы�
 -------
 Как узнать тип данных? 
 Оператор typeof
-console.log(typeof(a))
+let a = 10
+let b = +Infinity
+let c = NaN
+let d = 'Hello world!'
+
+console.log(typeof(a))      - number
+console.log(typeof(b))      - number
+console.log(typeof(c))      - number
+console.log(typeof(d))      - string
 -------
 
 ._Boolean (булевый тип)_.

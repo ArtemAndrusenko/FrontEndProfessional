@@ -26,7 +26,13 @@ function changeValue(arg1, arg2) {
 let resultChangeValue = changeValue(false,25);
 console.log(resultChangeValue);
 
+//В решении выше использовать тернарный оператор и стрелочную функцию
 
+//const changeValue = (arg1, arg2) => arg1 ? Math.pow(arg2, 2) : Math.sqrt(arg2);
+  
+//   let resultChangeValue = changeValue(false, 25);
+//   console.log(resultChangeValue);
+  
 
 // 4 Задание
 function countString(string) {
