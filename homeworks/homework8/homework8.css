@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#root {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+img {
+    height: 350px;
+    width: 350px;
+}
+div.user {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+}
+div.user_info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+p {
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
